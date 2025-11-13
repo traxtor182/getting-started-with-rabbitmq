@@ -12,6 +12,7 @@ namespace GettingStartedWithRabbitMQ
         [STAThread]
         static void Main()
         {
+            //todo: teste com docker
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new PubSub_Producer());
