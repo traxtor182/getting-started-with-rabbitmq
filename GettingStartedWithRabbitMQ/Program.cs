@@ -12,6 +12,7 @@ namespace GettingStartedWithRabbitMQ
         [STAThread]
         static void Main()
         {
+            //todo: add a command line argument to the program to specify the example to run
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new PubSub_Producer());
