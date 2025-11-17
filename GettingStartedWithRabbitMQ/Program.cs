@@ -12,7 +12,6 @@ namespace GettingStartedWithRabbitMQ
         [STAThread]
         static void Main()
         {
-            //todo
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new PubSub_Producer());
